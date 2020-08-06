@@ -10,8 +10,6 @@ git clone https://github.com/koutto/jok3r.git
 ![image](https://user-images.githubusercontent.com/41882267/89511614-5bcb4500-d7fc-11ea-86fc-5c122dea9d94.png)
 
 
-
-
 Cài đặt pip3 bằng lệnh:
 ```
 sudo apt install python3-pip
@@ -20,16 +18,12 @@ sudo apt install python3-pip
 ![image](https://user-images.githubusercontent.com/41882267/89511713-78677d00-d7fc-11ea-9f38-4fd7c4d1d8e0.png)
 
 
-
-
 Để cài đặt các module mà toolbox cần. Chuyển đến thư mục jok3r và sử dụng lệnh:
 ```
 pip3 install -r requirements.txt
 ```
 
 ![image](https://user-images.githubusercontent.com/41882267/89511908-afd62980-d7fc-11ea-99f2-d13d4860c76d.png)
-
-
 
 
 Để tiến hành cài đặt, sử dụng lệnh:
@@ -51,8 +45,6 @@ sudo nano -c /etc/apt/sources.list
 Sau đó comment lại dòng số 5 và lưu lại.
 
 ![image](https://user-images.githubusercontent.com/41882267/89512596-a3060580-d7fd-11ea-93ea-be8b25611550.png)
-
-
 
 
 Ở bước cài đặt xuất hiện lỗi NO_PUBKEY. Để sửa lỗi này, sử dụng lệnh:
