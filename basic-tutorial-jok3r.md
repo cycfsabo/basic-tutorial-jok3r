@@ -127,7 +127,7 @@ python3 jok3r.py db
 ![image](https://user-images.githubusercontent.com/41882267/89515436-473d7b80-d801-11ea-8bd8-a0c529d82082.png)
 
 
-*Lưu ý: 
+*Lưu ý:* 
 Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa file DbController.py, sử dụng lệnh: 
 ```
 sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
