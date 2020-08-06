@@ -47,7 +47,7 @@ sudo ./install
 
 - *Lưu ý:*
 
-   - Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
+Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
 sử dụng lệnh: 
 ```
 sudo nano -c /etc/apt/sources.list
@@ -59,21 +59,21 @@ Sau đó comment dòng số 5 và lưu lại.
 ![image](https://user-images.githubusercontent.com/41882267/89512596-a3060580-d7fd-11ea-93ea-be8b25611550.png)
 
 
-   - Ở bước cài đặt xuất hiện lỗi NO_PUBKEY. Để sửa lỗi này, sử dụng lệnh:
-   ```
-   sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys ED444FF07D8D0BF6
-   ```
-   (Với ED444FF07D8D0BF6 là tên key)
+Ở bước cài đặt xuất hiện lỗi NO_PUBKEY. Để sửa lỗi này, sử dụng lệnh:
+```
+sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys ED444FF07D8D0BF6
+```
+(Với ED444FF07D8D0BF6 là tên key)
 
-   ![image](https://user-images.githubusercontent.com/41882267/89512932-1ad43000-d7fe-11ea-80f0-81ce798657c4.png)
+![image](https://user-images.githubusercontent.com/41882267/89512932-1ad43000-d7fe-11ea-80f0-81ce798657c4.png)
 
 
-   - Sau khi sửa hết lỗi, tiến hành cài lại bằng cách sử dụng lệnh:
-   ```
-   sudo ./install
-   ```
+Sau khi sửa hết lỗi, tiến hành cài lại bằng cách sử dụng lệnh:
+```
+sudo ./install
+```
 
-   ![image](https://user-images.githubusercontent.com/41882267/89513418-b9f92780-d7fe-11ea-8a7e-c61cdbc357a8.png)
+![image](https://user-images.githubusercontent.com/41882267/89513418-b9f92780-d7fe-11ea-8a7e-c61cdbc357a8.png)
 
 
 - Chọn "Yes" trong 2 trường hợp sau:
@@ -132,32 +132,32 @@ python3 jok3r.py db
 
 - *Lưu ý:* 
 
-   - Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa file DbController.py, sử dụng lệnh: 
-   ```
-   sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
-   ```
-   Sau đó comment dòng 68 và dòng 70
-   <br/>
-   dòng 68: del cmd2.Cmd.do_load
-   <br/>
-   dòng 70: del cmd2.Cmd.do_pyscript
-   <br/>
-   Sau đó lưu lại và thoát ra.
+Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa file DbController.py, sử dụng lệnh: 
+```
+sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
+```
+Sau đó comment dòng 68 và dòng 70
+<br/>
+dòng 68: del cmd2.Cmd.do_load
+<br/>
+dòng 70: del cmd2.Cmd.do_pyscript
+<br/>
+Sau đó lưu lại và thoát ra.
 
 
-   ![image](https://user-images.githubusercontent.com/41882267/89515696-adc29980-d801-11ea-8b39-a181dd2b3bfc.png)
+![image](https://user-images.githubusercontent.com/41882267/89515696-adc29980-d801-11ea-8b39-a181dd2b3bfc.png)
 
 
-   - Sau khi sửa lỗi, vào lại db bằng lệnh:
-   ```
-   python3 jok3r.py db
-   ```
+Sau khi sửa lỗi, vào lại db bằng lệnh:
+```
+python3 jok3r.py db
+```
 
-   ![image](https://user-images.githubusercontent.com/41882267/89515878-e6627300-d801-11ea-8088-72a0d6b72da0.png)
+![image](https://user-images.githubusercontent.com/41882267/89515878-e6627300-d801-11ea-8088-72a0d6b72da0.png)
 
 
 
-   Nếu màn hình hiện ra như trên là đã vào db thành công.
+Nếu màn hình hiện ra như trên là đã vào db thành công.
 
 
 - Để tạo mission mới tên "mayhem" trong database, sử dụng lệnh: 
