@@ -13,7 +13,7 @@
 
 ## Cài đặt <a name="setup"></a>
 
-Clone source code về từ github bằng lệnh:
+- Clone source code về từ github bằng lệnh:
 ```
 git clone https://github.com/koutto/jok3r.git
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/koutto/jok3r.git
 ![image](https://user-images.githubusercontent.com/41882267/89511614-5bcb4500-d7fc-11ea-86fc-5c122dea9d94.png)
 
 
-Cài đặt pip3 bằng lệnh:
+- Cài đặt pip3 bằng lệnh:
 ```
 sudo apt install python3-pip
 ```
@@ -29,7 +29,7 @@ sudo apt install python3-pip
 ![image](https://user-images.githubusercontent.com/41882267/89511713-78677d00-d7fc-11ea-9f38-4fd7c4d1d8e0.png)
 
 
-Để cài đặt các module mà toolbox cần, chuyển đến thư mục jok3r và sử dụng lệnh:
+- Để cài đặt các module mà toolbox cần, chuyển đến thư mục jok3r và sử dụng lệnh:
 ```
 pip3 install -r requirements.txt
 ```
@@ -37,7 +37,7 @@ pip3 install -r requirements.txt
 ![image](https://user-images.githubusercontent.com/41882267/89511908-afd62980-d7fc-11ea-99f2-d13d4860c76d.png)
 
 
-Để tiến hành cài đặt, sử dụng lệnh:
+- Để tiến hành cài đặt, sử dụng lệnh:
 ```
 sudo ./install
 ```
@@ -76,7 +76,7 @@ sudo ./install
 ![image](https://user-images.githubusercontent.com/41882267/89513418-b9f92780-d7fe-11ea-8a7e-c61cdbc357a8.png)
 
 
-Chọn "Yes" trong 2 trường hợp sau:
+- Chọn "Yes" trong 2 trường hợp sau:
 
 ![image](https://user-images.githubusercontent.com/41882267/89513530-e0b75e00-d7fe-11ea-9280-590fa25f9fef.png)
 ![image](https://user-images.githubusercontent.com/41882267/89513548-e8770280-d7fe-11ea-9fd4-4b6fde9f4aca.png)
@@ -85,7 +85,7 @@ Chọn "Yes" trong 2 trường hợp sau:
 Lần đầu tiên cài có thể sẽ bị lỗi thiếu một số tool.
 ![image](https://user-images.githubusercontent.com/41882267/89513733-22e09f80-d7ff-11ea-8b04-dac1205c797b.png)
 
-Thiết lập biến môi trường java, sử dụng lệnh: 
+- Thiết lập biến môi trường java, sử dụng lệnh: 
 ```
 sudo nano /etc/environment
 ```
@@ -98,7 +98,7 @@ JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 ![image](https://user-images.githubusercontent.com/41882267/89513869-57545b80-d7ff-11ea-9e7e-8dcf1f5976ac.png)
 
 
-Để cài từng tool và dò tìm lỗi khi cài đặt,sử dụng lệnh:
+- Để cài từng tool và dò tìm lỗi khi cài đặt,sử dụng lệnh:
 ```
 python3 jok3r.py toolbox --install-all
 ```
@@ -106,9 +106,9 @@ Sau đó sửa theo lỗi mà code trả về. Ví dụ:
 ![image](https://user-images.githubusercontent.com/41882267/89514070-8ff43500-d7ff-11ea-9739-14559d611b9d.png)
 
 
-Để sửa lỗi này,ta có thể xóa hết các folder và file trong folder vbscan và tiến hành cài lại.
+- Để sửa lỗi này,ta có thể xóa hết các folder và file trong folder vbscan và tiến hành cài lại.
 
-Sau khi cài xong, để kiểm tra lại các tool trong toolbox, sử dụng lệnh:
+- Sau khi cài xong, để kiểm tra lại các tool trong toolbox, sử dụng lệnh:
 ```
 python3 jok3r.py toolbox --show-all
 ```
