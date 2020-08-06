@@ -91,11 +91,17 @@ sudo nano /etc/environment
 ```
 
 
-Và thêm vào đoạn sau: JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+Và thêm vào đoạn sau:
+```
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+```
 ![image](https://user-images.githubusercontent.com/41882267/89513869-57545b80-d7ff-11ea-9e7e-8dcf1f5976ac.png)
 
 
-Để cài từng tool và dò tìm lỗi khi cài đặt,sử dụng lệnh:<br/>python3 jok3r.py toolbox --install-all
+Để cài từng tool và dò tìm lỗi khi cài đặt,sử dụng lệnh:
+```
+python3 jok3r.py toolbox --install-all
+```
 Sau đó sửa theo lỗi mà code trả về. Ví dụ:
 ![image](https://user-images.githubusercontent.com/41882267/89514070-8ff43500-d7ff-11ea-9739-14559d611b9d.png)
 
