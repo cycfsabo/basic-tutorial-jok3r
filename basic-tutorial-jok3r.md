@@ -45,7 +45,7 @@ sudo ./install
 ![image](https://user-images.githubusercontent.com/41882267/89512138-fdeb2d00-d7fc-11ea-9ec8-229abc6b6d05.png)
 
 
-*Lưu ý:
+*Lưu ý:*
 Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
 sử dụng lệnh: 
 ```
@@ -53,7 +53,7 @@ sudo nano -c /etc/apt/sources.list
 ```
 
 
-Sau đó comment lại dòng số 5 và lưu lại.
+Sau đó comment dòng số 5 và lưu lại.
 
 ![image](https://user-images.githubusercontent.com/41882267/89512596-a3060580-d7fd-11ea-93ea-be8b25611550.png)
 
@@ -90,7 +90,7 @@ sudo nano /etc/environment
 ```
 
 
-Và thêm vào file đoạn sau: JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+Và thêm vào đoạn sau: JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 ![image](https://user-images.githubusercontent.com/41882267/89513869-57545b80-d7ff-11ea-9e7e-8dcf1f5976ac.png)
 
 
