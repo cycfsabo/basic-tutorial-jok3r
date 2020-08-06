@@ -296,28 +296,28 @@ nmap result1.xml
 ![image](https://user-images.githubusercontent.com/41882267/89519467-9cc85700-d806-11ea-9f69-a402c688db3f.png)
 
 
-- Kiểm tra các host bằng lệnh: 
+- Hiển thị các host bằng lệnh: 
 ```
 hosts
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89519678-f2046880-d806-11ea-812f-618bea9513a0.png)
 
 
-- Kiểm tra các service bằng lệnh: 
+- Hiển thị các service bằng lệnh: 
 ```
 services
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89519752-0c3e4680-d807-11ea-9b04-6e12c3dad16a.png)
 
 
-- Kiểm tra các product bằng lệnh: 
+- Hiển thị các product bằng lệnh: 
 ```
 products
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89519897-490a3d80-d807-11ea-9679-a0933f8fe6c7.png)
 
 
-- Kiểm tra các credential bằng lệnh: 
+- Hiển thị các credential bằng lệnh: 
 ```
 creds
 ```
@@ -331,7 +331,7 @@ results --search '<search_string>'
 ![image](https://user-images.githubusercontent.com/41882267/89530004-f2f1c600-d817-11ea-8a7a-e28474cdff6a.png)
 
 
-- Kiểm tra các lỗ hổng bằng lệnh: 
+- Hiển thị các lỗ hổng bằng lệnh: 
 ```
 vulns
 ```
