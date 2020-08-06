@@ -108,7 +108,7 @@ Sau đó sửa theo lỗi mà code trả về. Ví dụ:
 
 Để sửa lỗi này,ta có thể xóa hết các folder và file trong folder vbscan và tiến hành cài lại.
 
-Sau khi cài xong, để kiểm tra lại kết quả, sử dụng lệnh:
+Sau khi cài xong, để kiểm tra lại các tool trong toolbox, sử dụng lệnh:
 ```
 python3 jok3r.py toolbox --show-all
 ```
