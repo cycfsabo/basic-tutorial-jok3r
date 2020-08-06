@@ -247,41 +247,36 @@ Kiểm tra các host bằng lệnh:
 ```
 hosts
 ```
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89519678-f2046880-d806-11ea-812f-618bea9513a0.png)
-<br/>
+
 
 Kiểm tra các service bằng lệnh: 
 ```
 services
 ```
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89519752-0c3e4680-d807-11ea-9b04-6e12c3dad16a.png)
-<br/>
+
 
 Kiểm tra các product bằng lệnh: 
 ```
 products
 ```
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89519897-490a3d80-d807-11ea-9679-a0933f8fe6c7.png)
-<br/>
+
 
 Kiểm tra các credential bằng lệnh: 
 ```
 creds
 ```
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89520048-7f47bd00-d807-11ea-98cd-fdb6be5f056a.png)
-<br/>
+
 
 Kiểm tra các lỗ hổng bằng lệnh: 
 ```
 vulns
 ```
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89520194-aef6c500-d807-11ea-8d14-a7c9985b016d.png)
-<br/>
+
 
 
 
