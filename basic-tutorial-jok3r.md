@@ -226,6 +226,31 @@ Update tự động tất cả các tool trong toolbox mà không hỏi:
 python3 jok3r.py toolbox --update-all --auto
 ```
 
+
+Liệt kê các service được hỗ trợ:
+```
+python3 jok3r.py info --services
+```
+
+
+Hiển thị kiểm tra bảo mật với một service nhất định:
+```
+python3 jok3r.py info --checks <service>
+```
+
+
+Hiển thị hồ sơ tấn công được hỗ trợ cho một service nhất định:
+```
+python3 jok3r.py info --attack-profiles <service>
+```
+
+
+Hiển thị các product được hỗ trợ cho tất cả các service:
+```
+python3 jok3r.py info --products
+```
+
+
 #### Thao tác với database
 Vào thư mục jok3r, sử dụng nmap để quét mạng 192.168.182.0/24 và lưu kết quả vào file result1.xml bằng lệnh:
 ```
