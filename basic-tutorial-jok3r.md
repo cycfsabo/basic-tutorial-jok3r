@@ -1,6 +1,11 @@
 # Hướng dẫn cài đặt và sử dụng cơ bản Jok3r
 
-## 1. Cài đặt
+
+1. [Cài đặt](## Cài đặt)
+2. [Hướng dẫn sử dụng cơ bản](## Hướng dẫn sử dụng cơ bản)
+
+
+## Cài đặt
 
 Clone source code về từ github bằng lệnh:
 ```
@@ -98,7 +103,7 @@ python3 jok3r.py toolbox --show-all
 ![image](https://user-images.githubusercontent.com/41882267/89514471-1b6dc600-d800-11ea-8140-2f80292eeb84.png)
 
 
-## 2. Hướng dẫn sử dụng cơ bản
+## Hướng dẫn sử dụng cơ bản
  
 ### Demo Security Testing
 Đầu tiên, vào thư mục jok3r. Để vào database, sử dụng lệnh:
