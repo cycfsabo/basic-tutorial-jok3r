@@ -106,7 +106,7 @@ Sau đó sửa theo lỗi mà code trả về. Ví dụ:
 ![image](https://user-images.githubusercontent.com/41882267/89514070-8ff43500-d7ff-11ea-9739-14559d611b9d.png)
 
 
-Để sửa lỗi này,ta có thể xóa hết các folder và file trong folder vbscan và tiến hành cài lại.
+Để sửa lỗi này, ta có thể xóa hết các folder và file trong folder vbscan và tiến hành cài lại.
 
 - Sau khi cài xong, để kiểm tra lại các tool trong toolbox, sử dụng lệnh:
 ```
