@@ -222,7 +222,7 @@ report
 
 
 #### Thao tác quản lý với toolbox <a name="toolbox-management"></a>
-- Hiển thị tất cả tool trong toolbox bằng: 
+- Hiển thị tất cả tool trong toolbox: 
 ```
 python3 jok3r.py toolbox --show-all
 ```
