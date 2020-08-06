@@ -67,31 +67,29 @@ sudo ./install
 Chọn "Yes" trong 2 trường hợp sau:
 
 ![image](https://user-images.githubusercontent.com/41882267/89513530-e0b75e00-d7fe-11ea-9280-590fa25f9fef.png)
-
 ![image](https://user-images.githubusercontent.com/41882267/89513548-e8770280-d7fe-11ea-9fd4-4b6fde9f4aca.png)
 
 
 Lần đầu tiên cài có thể sẽ bị lỗi thiếu một số tool.
-
 ![image](https://user-images.githubusercontent.com/41882267/89513733-22e09f80-d7ff-11ea-8b04-dac1205c797b.png)
 
 Thiết lập biến môi trường java, sử dụng lệnh: 
 ```
 sudo nano /etc/environment
 ```
-<br/>
-Và thêm vào file đoạn sau: JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 
+
+Và thêm vào file đoạn sau: JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 ![image](https://user-images.githubusercontent.com/41882267/89513869-57545b80-d7ff-11ea-9e7e-8dcf1f5976ac.png)
 
 
 Để cài từng tool và dò tìm lỗi khi cài đặt,sử dụng lệnh:<br/>python3 jok3r.py toolbox --install-all
 Sau đó sửa theo lỗi mà code trả về. Ví dụ:
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89514070-8ff43500-d7ff-11ea-9739-14559d611b9d.png)
-<br/>
+
+
 Để sửa lỗi này,ta có thể xóa hết các folder và file trong folder vbscan và tiến hành cài lại.
-<br/>
+
 Sau khi cài xong, để kiểm tra lại kết quả, sử dụng lệnh:
 ```
 python3 jok3r.py toolbox --show-all
@@ -117,13 +115,10 @@ Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa
 sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
 ```
 Sau đó comment dòng 68 và dòng 70
-<br/>
 dòng 68: del cmd2.Cmd.do_load
-<br/>
 dòng 70: del cmd2.Cmd.do_pyscript
-<br/>
 Sau đó lưu lại và thoát ra.
-<br/>
+
 
 ![image](https://user-images.githubusercontent.com/41882267/89515696-adc29980-d801-11ea-8b39-a181dd2b3bfc.png)
 
