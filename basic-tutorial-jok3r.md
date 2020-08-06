@@ -3,8 +3,8 @@
 
 1. [Cài đặt](#setup)
 1. [Hướng dẫn sử dụng cơ bản](#basic-usage)
-   1. [Demo security testing](#demo-security-testing)
-   1. [Một số lệnh khác](#commands)
+   1.1. [Demo security testing](#demo-security-testing)
+   1.1. [Một số lệnh khác](#commands)
       1. [Thao tác quản lý với toolbox](#toolbox-management)
       1. [Thao tác với database](#database-management)
 
