@@ -1,5 +1,7 @@
 # Hướng dẫn cài đặt và sử dụng cơ bản Jok3r
 
+## Mục lục:
+
 
 1. [Cài đặt](#setup)
 1. [Hướng dẫn sử dụng cơ bản](#basic-usage)
