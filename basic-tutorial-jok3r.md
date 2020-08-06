@@ -5,7 +5,7 @@
 
 1. [Cài đặt](#setup)
 1. [Hướng dẫn sử dụng cơ bản](#basic-usage)
-   1. [Demo security testing](#demo-security-testing)
+   1. [Thử nghiệm kiểm tra bảo mật bằng toolbox](#demo-security-testing)
    1. [Một số lệnh khác](#commands)
       1. [Thao tác quản lý với toolbox](#toolbox-management)
       1. [Thao tác với database](#database-management)
@@ -118,8 +118,8 @@ python3 jok3r.py toolbox --show-all
 
 ## Hướng dẫn sử dụng cơ bản <a name="basic-usage"></a>
  
-### Demo security testing <a name="demo-security-testing"></a>
-Thử nghiệm kiểm tra bảo mật của một url cho trước.
+### Thử nghiệm kiểm tra bảo mật bằng toolbox <a name="demo-security-testing"></a>
+Thử nghiệm kiểm tra bảo mật đối với một url cho trước.
 - Đầu tiên, vào thư mục jok3r. Để vào database, sử dụng lệnh:
 ```
 python3 jok3r.py db
