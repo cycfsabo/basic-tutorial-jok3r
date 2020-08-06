@@ -46,6 +46,7 @@ sudo ./install
 
 
 *Lưu ý:*
+<br/>
 Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
 sử dụng lệnh: 
 ```
