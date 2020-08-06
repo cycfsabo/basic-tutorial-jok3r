@@ -83,6 +83,7 @@ sudo ./install
 
 
 - Lần đầu tiên cài có thể sẽ bị lỗi thiếu một số tool.
+
 ![image](https://user-images.githubusercontent.com/41882267/89513733-22e09f80-d7ff-11ea-8b04-dac1205c797b.png)
 
 - Thiết lập biến môi trường java, sử dụng lệnh: 
