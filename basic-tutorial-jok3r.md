@@ -29,7 +29,7 @@ sudo apt install python3-pip
 ![image](https://user-images.githubusercontent.com/41882267/89511713-78677d00-d7fc-11ea-9f38-4fd7c4d1d8e0.png)
 
 
-Để cài đặt các module mà toolbox cần. Chuyển đến thư mục jok3r và sử dụng lệnh:
+Để cài đặt các module mà toolbox cần, chuyển đến thư mục jok3r và sử dụng lệnh:
 ```
 pip3 install -r requirements.txt
 ```
