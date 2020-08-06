@@ -13,7 +13,7 @@
 
 ## Cài đặt <a name="setup"></a>
 
-- Clone source code về từ github bằng lệnh:
+- Clone source code về bằng lệnh:
 ```
 git clone https://github.com/koutto/jok3r.git
 ```
