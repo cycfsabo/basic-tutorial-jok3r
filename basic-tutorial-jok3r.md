@@ -45,7 +45,7 @@ sudo ./install
 ![image](https://user-images.githubusercontent.com/41882267/89512138-fdeb2d00-d7fc-11ea-9ec8-229abc6b6d05.png)
 
 
-*Lưu ý:*
+- *Lưu ý:*
 <br/>
 Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
 sử dụng lệnh: 
@@ -119,7 +119,8 @@ python3 jok3r.py toolbox --show-all
 ## Hướng dẫn sử dụng cơ bản <a name="basic-usage"></a>
  
 ### Demo security testing <a name="demo-security-testing"></a>
-Đầu tiên, vào thư mục jok3r. Để vào database, sử dụng lệnh:
+Thử nghiệm kiểm tra bảo mật của một url cho trước.
+- Đầu tiên, vào thư mục jok3r. Để vào database, sử dụng lệnh:
 ```
 python3 jok3r.py db
 ```
@@ -127,7 +128,7 @@ python3 jok3r.py db
 ![image](https://user-images.githubusercontent.com/41882267/89515436-473d7b80-d801-11ea-8bd8-a0c529d82082.png)
 
 
-*Lưu ý:* 
+- *Lưu ý:* 
 Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa file DbController.py, sử dụng lệnh: 
 ```
 sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
@@ -156,7 +157,7 @@ python3 jok3r.py db
 Nếu màn hình hiện ra như trên là đã vào db thành công.
 
 
-Để tạo mission mới tên "mayhem" trong database, sử dụng lệnh: 
+- Để tạo mission mới tên "mayhem" trong database, sử dụng lệnh: 
 ```
 mission -a mayhem
 ```
@@ -165,7 +166,7 @@ mission -a mayhem
 
 
 
-Mở một terminal khác. Để tiến hành chạy tất cả các security check đối với một URL trong chế độ tương tác và thêm kết quả vào mission "mayhem" bằng lệnh: 
+- Mở một terminal khác. Để tiến hành chạy tất cả các security check đối với một URL trong chế độ tương tác và thêm kết quả vào mission "mayhem" bằng lệnh: 
 ```
 python3 jok3r.py attack -t https://www.example.com/ --add2db mayhem
 ```
@@ -173,11 +174,11 @@ python3 jok3r.py attack -t https://www.example.com/ --add2db mayhem
 ![image](https://user-images.githubusercontent.com/41882267/89516402-9637e080-d802-11ea-9c6f-f1f582ea22a0.png)
 
 
-Y/n để đồng ý/từ chối bắt đầu tấn công mục tiêu:
+- Y/n để đồng ý/từ chối bắt đầu tấn công mục tiêu:
 
 ![image](https://user-images.githubusercontent.com/41882267/89516528-bff10780-d802-11ea-81f9-3c79ad1163a8.png)
 
-Phần mềm sẽ sử dụng các tool được cài sẵn trong quá trình kiểm tra. Mỗi khi sử dụng hệ thống sẽ hỏi người sử dụng.
+- Phần mềm sẽ sử dụng các tool được cài sẵn trong quá trình kiểm tra. Mỗi khi sử dụng hệ thống sẽ hỏi người sử dụng.
 <br/>
 y = Yes
 <br/>
@@ -191,12 +192,12 @@ Mặc định Enter là yes
 <br/>
 ![image](https://user-images.githubusercontent.com/41882267/89516745-05add000-d803-11ea-94f9-c332c0765799.png)
 
-Khi quá trình quét hoàn tất:
+- Khi quá trình quét hoàn tất:
 
 
 ![image](https://user-images.githubusercontent.com/41882267/89516887-3130ba80-d803-11ea-95da-049ea898bd3e.png)
 
-Tạo ra HTML report cho mission được chọn bằng lệnh:
+- Tạo file HTML report cho mission được chọn bằng lệnh:
 ```
 report
 ```
@@ -204,15 +205,14 @@ report
 ![image](https://user-images.githubusercontent.com/41882267/89517066-6937fd80-d803-11ea-9fac-1ec6bbb8ddac.png)
 
 
-File results-93.184.216.34-443-http-1.html vừa được tạo có dạng như sau. 
-
-
+- File results-93.184.216.34-443-http-1.html vừa được tạo có dạng như sau. 
+<br/>
 Bên trái file là các thẻ Services, Hosts, Web Interface, Specific Options, Products, Credentials, Vulnerabilities
 
 ![image](https://user-images.githubusercontent.com/41882267/89517175-8d93da00-d803-11ea-96dd-5fa89482dfdb.png)
 
 
-Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các công cụ:
+- Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các công cụ:
 ![image](https://user-images.githubusercontent.com/41882267/89517245-a4d2c780-d803-11ea-9ce6-c8f6accd33be.png)
 
 
@@ -221,56 +221,56 @@ Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các
 
 
 #### Thao tác quản lý với toolbox <a name="toolbox-management"></a>
-Hiển thị tất cả tool trong toolbox bằng: 
+- Hiển thị tất cả tool trong toolbox bằng: 
 ```
 python3 jok3r.py toolbox --show-all
 ```
 
 
-Tự động cài đặt tất cả tool trong toolbox: 
+- Tự động cài đặt tất cả tool trong toolbox: 
 ```
 python3 jok3r.py toolbox --install-all --auto
 ```
 
 
-Update tất cả các tool trong toolbox và hỏi khi update từng tool: 
+- Update tất cả các tool trong toolbox và hỏi khi update từng tool: 
 ```
 python3 jok3r.py toolbox --update-all
 ```
 
 
-Update tự động tất cả các tool trong toolbox mà không hỏi: 
+- Update tự động tất cả các tool trong toolbox mà không hỏi: 
 ```
 python3 jok3r.py toolbox --update-all --auto
 ```
 
 
-Liệt kê các service được hỗ trợ:
+- Liệt kê các service được hỗ trợ:
 ```
 python3 jok3r.py info --services
 ```
 
 
-Hiển thị kiểm tra bảo mật với một service nhất định:
+- Hiển thị kiểm tra bảo mật với một service nhất định:
 ```
 python3 jok3r.py info --checks <service>
 ```
 
 
-Hiển thị hồ sơ tấn công được hỗ trợ cho một service nhất định:
+- Hiển thị hồ sơ tấn công được hỗ trợ cho một service nhất định:
 ```
 python3 jok3r.py info --attack-profiles <service>
 ```
 
 
-Hiển thị các product được hỗ trợ cho tất cả các service:
+- Hiển thị các product được hỗ trợ cho tất cả các service:
 ```
 python3 jok3r.py info --products
 ```
 
 
 #### Thao tác với database <a name="database-management"></a>
-Vào thư mục jok3r, sử dụng nmap để quét mạng 192.168.182.0/24 và lưu kết quả vào file result1.xml bằng lệnh:
+- Vào thư mục jok3r, sử dụng nmap để quét mạng 192.168.182.0/24 và lưu kết quả vào file result1.xml bằng lệnh:
 ```
 sudo nmap 192.168.182.0/24 -oX - result1.xml
 ```
@@ -278,7 +278,7 @@ sudo nmap 192.168.182.0/24 -oX - result1.xml
 ![image](https://user-images.githubusercontent.com/41882267/89518848-b1f0b600-d805-11ea-9d6a-4d659bb5ddbd.png)
 
 
-Nếu bị lỗi Failed to resolve "result1.xml" thì có thể sử dụng lệnh:
+- Nếu bị lỗi Failed to resolve "result1.xml" thì có thể sử dụng lệnh:
 ```
 sudo nmap 192.168.182.0/24 -oX - result1.xml > result1.xml
 ```
@@ -286,7 +286,7 @@ sudo nmap 192.168.182.0/24 -oX - result1.xml > result1.xml
 ![image](https://user-images.githubusercontent.com/41882267/89519296-53780780-d806-11ea-80fe-a60256170876.png)
 
 
-Để import file result1.xml vào database. Chuyển qua terminal đang mở db và sử dụng lệnh:
+- Để import file result1.xml vào database. Chuyển qua terminal đang mở db và sử dụng lệnh:
 ```
 nmap result1.xml
 ```
@@ -295,42 +295,42 @@ nmap result1.xml
 ![image](https://user-images.githubusercontent.com/41882267/89519467-9cc85700-d806-11ea-9f69-a402c688db3f.png)
 
 
-Kiểm tra các host bằng lệnh: 
+- Kiểm tra các host bằng lệnh: 
 ```
 hosts
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89519678-f2046880-d806-11ea-812f-618bea9513a0.png)
 
 
-Kiểm tra các service bằng lệnh: 
+- Kiểm tra các service bằng lệnh: 
 ```
 services
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89519752-0c3e4680-d807-11ea-9b04-6e12c3dad16a.png)
 
 
-Kiểm tra các product bằng lệnh: 
+- Kiểm tra các product bằng lệnh: 
 ```
 products
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89519897-490a3d80-d807-11ea-9679-a0933f8fe6c7.png)
 
 
-Kiểm tra các credential bằng lệnh: 
+- Kiểm tra các credential bằng lệnh: 
 ```
 creds
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89520048-7f47bd00-d807-11ea-98cd-fdb6be5f056a.png)
 
 
-Tìm kiếm bằng chuỗi trong các kết quả kiểm tra ở mission được chọn:
+- Tìm kiếm bằng chuỗi trong các kết quả kiểm tra ở mission được chọn:
 ```
 results --search '<search_string>'
 ```
 ![image](https://user-images.githubusercontent.com/41882267/89530004-f2f1c600-d817-11ea-8a7a-e28474cdff6a.png)
 
 
-Kiểm tra các lỗ hổng bằng lệnh: 
+- Kiểm tra các lỗ hổng bằng lệnh: 
 ```
 vulns
 ```
