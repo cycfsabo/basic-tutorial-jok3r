@@ -215,6 +215,7 @@ report
 
 
 - Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các công cụ:
+
 ![image](https://user-images.githubusercontent.com/41882267/89517245-a4d2c780-d803-11ea-9ce6-c8f6accd33be.png)
 
 
