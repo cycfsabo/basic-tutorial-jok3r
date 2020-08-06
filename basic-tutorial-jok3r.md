@@ -3,6 +3,10 @@
 
 1. [Cài đặt](#setup)
 2. [Hướng dẫn sử dụng cơ bản](#basic-usage)
+   2.1. [Demo security testing](#demo-security-testing)
+   2.2. [Một số lệnh khác](#commands)
+        2.2.1. [Thao tác quản lý với toolbox](#toolbox-management)
+        2.2.2. [Thao tác với database](#database-management)
 
 
 ## Cài đặt <a name="setup"></a>
@@ -105,7 +109,7 @@ python3 jok3r.py toolbox --show-all
 
 ## Hướng dẫn sử dụng cơ bản <a name="basic-usage"></a>
  
-### Demo Security Testing
+### Demo security testing <a name="demo-security-testing"></a>
 Đầu tiên, vào thư mục jok3r. Để vào database, sử dụng lệnh:
 ```
 python3 jok3r.py db
@@ -204,10 +208,10 @@ Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các
 
 
 
-### Một số lệnh khác
+### Một số lệnh khác <a name="commands"></a>
 
 
-#### Thao tác quản lý với toolbox
+#### Thao tác quản lý với toolbox <a name="toolbox-management"></a>
 Hiển thị tất cả tool trong toolbox bằng: 
 ```
 python3 jok3r.py toolbox --show-all
@@ -256,7 +260,7 @@ python3 jok3r.py info --products
 ```
 
 
-#### Thao tác với database
+#### Thao tác với database <a name="database-management"></a>
 Vào thư mục jok3r, sử dụng nmap để quét mạng 192.168.182.0/24 và lưu kết quả vào file result1.xml bằng lệnh:
 ```
 sudo nmap 192.168.182.0/24 -oX - result1.xml
