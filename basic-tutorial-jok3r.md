@@ -132,32 +132,32 @@ python3 jok3r.py db
 
 - *Lưu ý:* 
 
-Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa file DbController.py, sử dụng lệnh: 
-```
-sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
-```
-Sau đó comment dòng 68 và dòng 70
-<br/>
-dòng 68: del cmd2.Cmd.do_load
-<br/>
-dòng 70: del cmd2.Cmd.do_pyscript
-<br/>
-Sau đó lưu lại và thoát ra.
+   - Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa file DbController.py, sử dụng lệnh: 
+   ```
+   sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
+   ```
+   Sau đó comment dòng 68 và dòng 70
+   <br/>
+   dòng 68: del cmd2.Cmd.do_load
+   <br/>
+   dòng 70: del cmd2.Cmd.do_pyscript
+   <br/>
+   Sau đó lưu lại và thoát ra.
 
 
-![image](https://user-images.githubusercontent.com/41882267/89515696-adc29980-d801-11ea-8b39-a181dd2b3bfc.png)
+   ![image](https://user-images.githubusercontent.com/41882267/89515696-adc29980-d801-11ea-8b39-a181dd2b3bfc.png)
 
 
-Sau khi sửa lỗi, vào lại db bằng lệnh:
-```
-python3 jok3r.py db
-```
+   - Sau khi sửa lỗi, vào lại db bằng lệnh:
+   ```
+   python3 jok3r.py db
+   ```
 
-![image](https://user-images.githubusercontent.com/41882267/89515878-e6627300-d801-11ea-8088-72a0d6b72da0.png)
+   ![image](https://user-images.githubusercontent.com/41882267/89515878-e6627300-d801-11ea-8088-72a0d6b72da0.png)
 
 
 
-Nếu màn hình hiện ra như trên là đã vào db thành công.
+   Nếu màn hình hiện ra như trên là đã vào db thành công.
 
 
 - Để tạo mission mới tên "mayhem" trong database, sử dụng lệnh: 
