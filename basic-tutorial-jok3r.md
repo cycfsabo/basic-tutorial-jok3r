@@ -1,12 +1,12 @@
 # Hướng dẫn cài đặt và sử dụng cơ bản Jok3r
 
 
-- 1. [Cài đặt](#setup)
-- 2. [Hướng dẫn sử dụng cơ bản](#basic-usage)
-   - 2.1. [Demo security testing](#demo-security-testing)
-   - 2.2. [Một số lệnh khác](#commands)
-        - 2.2.1. [Thao tác quản lý với toolbox](#toolbox-management)
-        - 2.2.2. [Thao tác với database](#database-management)
+1. [Cài đặt](#setup)
+1. [Hướng dẫn sử dụng cơ bản](#basic-usage)
+   1. [Demo security testing](#demo-security-testing)
+   1. [Một số lệnh khác](#commands)
+      1. [Thao tác quản lý với toolbox](#toolbox-management)
+      1. [Thao tác với database](#database-management)
 
 
 ## Cài đặt <a name="setup"></a>
