@@ -175,7 +175,8 @@ Mặc định Enter là yes
 ![image](https://user-images.githubusercontent.com/41882267/89516745-05add000-d803-11ea-94f9-c332c0765799.png)
 
 Khi quá trình quét hoàn tất:
-<br/>
+
+
 ![image](https://user-images.githubusercontent.com/41882267/89516887-3130ba80-d803-11ea-95da-049ea898bd3e.png)
 
 Tạo ra HTML report cho mission được chọn bằng lệnh:
@@ -183,7 +184,6 @@ Tạo ra HTML report cho mission được chọn bằng lệnh:
 report
 ```
 
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89517066-6937fd80-d803-11ea-9fac-1ec6bbb8ddac.png)
 <br/>
 
