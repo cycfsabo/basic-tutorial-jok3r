@@ -202,44 +202,54 @@ Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các
 
 
 ### Một số lệnh khác
-<br/>
+
+
 #### Thao tác quản lý với toolbox
-<br/>
 Hiển thị tất cả tool trong toolbox bằng: 
-<br/>python3 jok3r.py toolbox --show-all
-<br/><br/>
+```
+python3 jok3r.py toolbox --show-all
+```
+
+
 Tự động cài đặt tất cả tool trong toolbox: 
-<br/>
+```
 python3 jok3r.py toolbox --install-all --auto
-<br/><br/>
+```
+
+
 Update tất cả các tool trong toolbox và hỏi khi update từng tool: 
-<br/>
+```
 python3 jok3r.py toolbox --update-all
-<br/><br/>
+```
+
 Update tự động tất cả các tool trong toolbox mà không hỏi: 
-<br/>python3 jok3r.py toolbox --update-all --auto
-<br/><br/>
+```
+python3 jok3r.py toolbox --update-all --auto
+```
+
 #### Thao tác với database
 Vào thư mục jok3r, sử dụng nmap để quét mạng 192.168.182.0/24 và lưu kết quả vào file result1.xml bằng lệnh:
-<br/>
+```
 sudo nmap 192.168.182.0/24 -oX - result1.xml
-<br/>
+```
+
 ![image](https://user-images.githubusercontent.com/41882267/89518848-b1f0b600-d805-11ea-9d6a-4d659bb5ddbd.png)
 
-<br/>
-Nếu bị lỗi Failed to resolve "result1.xml" thì có thể sử dụng lệnh:
-<br/>
 
+Nếu bị lỗi Failed to resolve "result1.xml" thì có thể sử dụng lệnh:
+```
 sudo nmap 192.168.182.0/24 -oX - result1.xml > result1.xml
-<br/>
+```
+
 ![image](https://user-images.githubusercontent.com/41882267/89519296-53780780-d806-11ea-80fe-a60256170876.png)
 
-<br/>
+
 Để import file result1.xml vào database. Chuyển qua terminal đang mở db và sử dụng lệnh:
 ```
 nmap result1.xml
 ```
-<br/>
+
+
 ![image](https://user-images.githubusercontent.com/41882267/89519467-9cc85700-d806-11ea-9f69-a402c688db3f.png)
 
 
