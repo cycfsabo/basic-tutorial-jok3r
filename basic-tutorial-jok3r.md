@@ -138,7 +138,7 @@ python3 jok3r.py db
 Nếu màn hình hiện ra như trên là đã vào db thành công.
 
 
-Để tạo mission mới tên là mayhem trong database, sử dụng lệnh: 
+Để tạo mission mới tên "mayhem" trong database, sử dụng lệnh: 
 ```
 mission -a mayhem
 ```
@@ -219,6 +219,7 @@ Update tất cả các tool trong toolbox và hỏi khi update từng tool:
 ```
 python3 jok3r.py toolbox --update-all
 ```
+
 
 Update tự động tất cả các tool trong toolbox mà không hỏi: 
 ```
