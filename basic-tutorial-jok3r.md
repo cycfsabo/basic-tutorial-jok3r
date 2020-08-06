@@ -305,6 +305,13 @@ creds
 ![image](https://user-images.githubusercontent.com/41882267/89520048-7f47bd00-d807-11ea-98cd-fdb6be5f056a.png)
 
 
+Tìm kiếm bằng chuỗi trong các kết quả kiểm tra ở mission được chọn:
+```
+results --search '<search_string>'
+```
+![image](https://user-images.githubusercontent.com/41882267/89530004-f2f1c600-d817-11ea-8a7a-e28474cdff6a.png)
+
+
 Kiểm tra các lỗ hổng bằng lệnh: 
 ```
 vulns
