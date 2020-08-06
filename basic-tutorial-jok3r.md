@@ -47,7 +47,7 @@ sudo ./install
 
 - *Lưu ý:*
 
-Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
+   - Ở bước cài đặt nếu có lỗi "Please use apt-cdrom to make this CD-ROM recognized by APT. apt-get update cannot be used to add new CD-ROMs" thì có thể sửa bằng cách 
 sử dụng lệnh: 
 ```
 sudo nano -c /etc/apt/sources.list
@@ -59,21 +59,21 @@ Sau đó comment dòng số 5 và lưu lại.
 ![image](https://user-images.githubusercontent.com/41882267/89512596-a3060580-d7fd-11ea-93ea-be8b25611550.png)
 
 
-Ở bước cài đặt xuất hiện lỗi NO_PUBKEY. Để sửa lỗi này, sử dụng lệnh:
-```
-sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys ED444FF07D8D0BF6
-```
-(Với ED444FF07D8D0BF6 là tên key)
+   - Ở bước cài đặt xuất hiện lỗi NO_PUBKEY. Để sửa lỗi này, sử dụng lệnh:
+   ```
+   sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys ED444FF07D8D0BF6
+   ```
+   (Với ED444FF07D8D0BF6 là tên key)
 
-![image](https://user-images.githubusercontent.com/41882267/89512932-1ad43000-d7fe-11ea-80f0-81ce798657c4.png)
+   ![image](https://user-images.githubusercontent.com/41882267/89512932-1ad43000-d7fe-11ea-80f0-81ce798657c4.png)
 
 
-Sau khi sửa hết lỗi, tiến hành cài lại bằng cách sử dụng lệnh:
-```
-sudo ./install
-```
+   - Sau khi sửa hết lỗi, tiến hành cài lại bằng cách sử dụng lệnh:
+   ```
+   sudo ./install
+   ```
 
-![image](https://user-images.githubusercontent.com/41882267/89513418-b9f92780-d7fe-11ea-8a7e-c61cdbc357a8.png)
+   ![image](https://user-images.githubusercontent.com/41882267/89513418-b9f92780-d7fe-11ea-8a7e-c61cdbc357a8.png)
 
 
 - Chọn "Yes" trong 2 trường hợp sau:
