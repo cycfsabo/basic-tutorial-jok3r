@@ -115,8 +115,11 @@ Nếu bị lỗi AttributeError: do_load thì có thể sửa bằng cách sửa
 sudo nano -c /home/hungcao/jok3r/lib/controller/DbController.py
 ```
 Sau đó comment dòng 68 và dòng 70
+<br/>
 dòng 68: del cmd2.Cmd.do_load
+<br/>
 dòng 70: del cmd2.Cmd.do_pyscript
+<br/>
 Sau đó lưu lại và thoát ra.
 
 
@@ -153,7 +156,7 @@ python3 jok3r.py attack -t https://www.example.com/ --add2db mayhem
 
 
 Y/n để đồng ý/từ chối bắt đầu tấn công mục tiêu:
-<br/>
+
 ![image](https://user-images.githubusercontent.com/41882267/89516528-bff10780-d802-11ea-81f9-3c79ad1163a8.png)
 
 Phần mềm sẽ sử dụng các tool được cài sẵn trong quá trình kiểm tra. Mỗi khi sử dụng hệ thống sẽ hỏi người sử dụng.
@@ -181,7 +184,6 @@ report
 ```
 
 ![image](https://user-images.githubusercontent.com/41882267/89517066-6937fd80-d803-11ea-9fac-1ec6bbb8ddac.png)
-<br/>
 
 
 File results-93.184.216.34-443-http-1.html vừa được tạo có dạng như sau. 
@@ -193,7 +195,6 @@ Bên trái file là các thẻ Services, Hosts, Web Interface, Specific Options,
 
 
 Chọn vào hàng trong bảng để xem chi tiết kết quả quét của các công cụ:
-<br/>
 ![image](https://user-images.githubusercontent.com/41882267/89517245-a4d2c780-d803-11ea-9ce6-c8f6accd33be.png)
 
 
