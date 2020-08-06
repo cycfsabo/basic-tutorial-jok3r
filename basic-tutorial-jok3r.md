@@ -3,8 +3,11 @@
 ## 1. Cài đặt
 
 Clone source code về từ github bằng lệnh:
-<br/>
+```
 git clone https://github.com/koutto/jok3r.git
+
+```
+
 ![image](https://user-images.githubusercontent.com/41882267/89511614-5bcb4500-d7fc-11ea-86fc-5c122dea9d94.png)
 
 
