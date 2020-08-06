@@ -208,9 +208,7 @@ report
 ![image](https://user-images.githubusercontent.com/41882267/89517066-6937fd80-d803-11ea-9fac-1ec6bbb8ddac.png)
 
 
-- File results-93.184.216.34-443-http-1.html vừa được tạo có dạng như sau. 
-<br/>
-Bên trái file là các thẻ Services, Hosts, Web Interface, Specific Options, Products, Credentials, Vulnerabilities
+- File results-93.184.216.34-443-http-1.html vừa được tạo có dạng như sau. Bên trái file là các thẻ Services, Hosts, Web Interface, Specific Options, Products, Credentials, Vulnerabilities.
 
 ![image](https://user-images.githubusercontent.com/41882267/89517175-8d93da00-d803-11ea-96dd-5fa89482dfdb.png)
 
