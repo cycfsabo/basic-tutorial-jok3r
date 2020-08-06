@@ -180,6 +180,7 @@ python3 jok3r.py attack -t https://www.example.com/ --add2db mayhem
 ![image](https://user-images.githubusercontent.com/41882267/89516528-bff10780-d802-11ea-81f9-3c79ad1163a8.png)
 
 - Phần mềm sẽ sử dụng các tool được cài sẵn trong quá trình kiểm tra. Mỗi khi sử dụng hệ thống sẽ hỏi người sử dụng.
+
 y = Yes
 <br/>
 n = No
@@ -189,7 +190,7 @@ f = Switch to fast mode (do not prompt anymore)
 q = Quit the program
 <br/>
 Mặc định Enter là yes
-<br/>
+
 ![image](https://user-images.githubusercontent.com/41882267/89516745-05add000-d803-11ea-94f9-c332c0765799.png)
 
 - Khi quá trình quét hoàn tất:
